@@ -12,7 +12,7 @@ const page = (props: Props) => {
             <p>
               In all possibilities, your website will be configured towards
               accepting cookies, and so we might collect the non-personally
-              identifiable information by using “cookies” or the “tags”.
+              identifiable information by using cookies or the tags.
             </p>
           </div>
           <div>
@@ -44,16 +44,15 @@ const page = (props: Props) => {
           <div>
             <h1>What is A Tag?</h1>
             <p>
-              "Tags" are the page tags, gif tags, web beacons – helping the
-              website to track website or email activities, such as for how many
-              times has a specific email or a page been interacted with. Ads and
-              emails sent by our website will contain these tag types.{" "}
+              Tags are the page tags, gif tags, web beacons, helping the website
+              to track website or email activities, such as for how many times
+              has a specific email or a page been interacted with. Ads and
+              emails sent by our website will contain these tag types.
             </p>
           </div>
           <div>
             <h1 className="font-bole">
-              {" "}
-              Should You Accept These Cookies Being Talked Of?{" "}
+              Should You Accept These Cookies Being Talked Of?
             </h1>
 
             <p className="py-2">
@@ -66,7 +65,7 @@ const page = (props: Props) => {
               Initially, most browsers are set to accept cookies, but you will
               be able to change your browser settings for accepting or rejecting
               the cookies. All the cookies on our website as well as on the web
-              will belong to one of the four categories -
+              will belong to one of the four categories
             </p>
             <ul className="py-2 flex flex-col gap-2">
               <li>Strictly Necessary</li>
@@ -80,7 +79,7 @@ const page = (props: Props) => {
               What Are the Types of Cookies We Are Using?
             </h1>
             <p className="py-2">
-              <strong>Essential</strong> – To experience the website's full
+              <strong>Essential</strong> – To experience the website full
               functionality, some cookies are indeed essential. The essential
               cookies allow in maintaining the user sessions while preventing
               security threats. Neither do they collect nor do they store
@@ -89,10 +88,10 @@ const page = (props: Props) => {
             <p className="py-2">
               <strong> Statistics </strong>- The Statistics cookies store
               information which includes the number of visitors visiting the
-              website, the count of unique visitors, the website's pages that
-              have already been visited, the source directing the visit and
-              more. Through these data, we can understand and analyze how well
-              the website is performing and which areas should be improved.
+              website, the count of unique visitors, the website pages that have
+              already been visited, the source directing the visit and more.
+              Through these data, we can understand and analyze how well the
+              website is performing and which areas should be improved.
             </p>
             <p className="py-2">
               <strong> Functional</strong>– The Functional cookies help in

@@ -43,7 +43,7 @@ const Form = (props: Props) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full pr-8 md:pr-0">
             <label htmlFor="website" className="relative">
               <span className="absolute top-[-.9rem] left-3 bg-white ">
-                Company's Website *
+                Company Website *
               </span>
               <input
                 type="text"

@@ -59,7 +59,7 @@ const Softwart = (props: Props) => {
         <div className=" pb-6">
           <Slider {...settings}>
             {brainiacSoftwares.map((software) => (
-              <div>
+              <div key={software.id}>
                 <Image
                   src={software.Icon}
                   alt={software.name}

@@ -33,7 +33,7 @@ const Header = (props: Props) => {
               {navLinks.map((link) => {
                 const isActive = pathName === link.path;
                 return (
-                  <li>
+                  <li key={link.id}>
                     <a
                       className={`text-gray-500  hover:text-gray-500/75 transition-all ${
                         isActive
